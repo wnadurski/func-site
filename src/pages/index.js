@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { main, dish } from "../src/Main.purs"
+import { main, dish } from "../Main.purs"
 
 main()
 

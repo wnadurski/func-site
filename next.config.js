@@ -7,7 +7,7 @@ module.exports = {
             query: {
                 spago: true,
                 pscIde: true,
-                src: ['src/**/*.purs', 'pages/**/*.purs'],
+                src: ['src/**/*.purs'],
                 bundle: !dev
             }
         })

@@ -12,4 +12,4 @@ mkFirstPost :: Component Props
 mkFirstPost =
   component "FirstPost" \_ -> Hooks.do
     pure do
-      h1_ [ text "Hello Purescript" ]
+      h1_ [ text "Hello Purescript 2" ]
