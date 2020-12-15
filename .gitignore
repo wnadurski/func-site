@@ -39,3 +39,5 @@ yarn-error.log*
 /.purs*
 /.psa*
 /.spago
+
+.vscode

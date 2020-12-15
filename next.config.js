@@ -1,4 +1,5 @@
 module.exports = {
+    pageExtensions: ["js", "jsx", "purs"],
     webpack: (config, { buildId, dev, isServer, defaultLoaders, webpack }) => {
         config.module.rules.push({
             test: /\.purs$/,
