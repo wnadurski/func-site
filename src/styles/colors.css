@@ -5,4 +5,8 @@
     --beige: #eff6e0ff;
     --beige-light: #F9FCF3;
     --bittersweet: #ff6b6bff;
+
+    --color-primary: var(--bittersweet);
+    --color-neutral-900: var(--charcoal);
+    --color-neutral-100: var(--beige-light);
 }

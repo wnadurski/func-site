@@ -1,0 +1,45 @@
+@import "./styles/colors.css";
+
+:root {
+    --ff-primary: "Roboto", sans-serif;
+    --ff-accent: "Trispace", serif;
+}
+
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: var(--color-neutral-900);
+    background-color: var(--color-neutral-100)
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, p {
+    margin: 0;
+}
+
+h1, h2, h3 {
+    font-family: var(--ff-accent);
+    font-weight: 400;
+    line-height: 1;;
+}
+
+.container {
+    margin-inline: auto;
+    width: min(80%, 70rem);
+}
+
+h1, p {
+    margin-top: 1.3rem;
+}
+
+.container .topbar {
+    margin-inline: auto;
+}

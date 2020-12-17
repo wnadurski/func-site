@@ -1,0 +1,23 @@
+.logotype {
+    font-family: var(--ff-accent);
+    font-weight: 200;
+    font-size: 1.7rem;
+ 
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.lambda {
+    color: var(--color-primary);
+    font-size: 2.5rem;
+    margin-right: 4px;
+}
+
+.func {}
+
+.dot {
+    color: var(--color-primary);
+}
+
+.site {}
