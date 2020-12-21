@@ -11,6 +11,9 @@ module.exports = {
                 src: ['src/**/*.purs'],
                 bundle: !dev
             }
+        }, {
+            test: /\.svg$/,
+            use: ["@svgr/webpack"]
         })
 
         // Important: return the modified config

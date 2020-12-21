@@ -11,9 +11,11 @@
   "dependencies": {
     "next": "^10.0.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "react-ripples": "^2.2.1"
   },
   "devDependencies": {
+    "@svgr/webpack": "^5.5.0",
     "purescript": "^0.13.8",
     "purs-loader": "^3.7.2",
     "spago": "^0.17.0"
