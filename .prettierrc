@@ -1,5 +1,8 @@
 {
+  "semi": false,
   "tabWidth": 2,
-  "useTabs": false,
-  "semicolons": false
+  "printWidth": 100,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "jsxBracketSameLine": true
 }

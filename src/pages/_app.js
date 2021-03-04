@@ -1,8 +1,8 @@
-import "../styles.css";
-import Head from "next/head";
-import { TopBar } from "../components/TopBar/TopBar";
-import { Logotype } from "../components/Logotype/Logotype";
-import { HamburgerButton } from "../components/Menu/Menu";
+import '../styles.css'
+import Head from 'next/head'
+import { TopBar } from '../components/TopBar/TopBar'
+import { Logotype } from '../components/Logotype/Logotype'
+import { HamburgerButton } from '../components/Menu/Menu'
 
 export default function FuncSiteApp({ Component, pageProps }) {
   return (
@@ -17,12 +17,11 @@ export default function FuncSiteApp({ Component, pageProps }) {
       </Head>
       <div className="container">
         <TopBar>
-          <HamburgerButton className='menu-button' />
+          <HamburgerButton className="menu-button" />
           <Logotype />
-          <div/>
         </TopBar>
         <Component {...pageProps} />
       </div>
     </>
-  );
+  )
 }
