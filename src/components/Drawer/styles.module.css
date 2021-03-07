@@ -1,0 +1,10 @@
+.drawerContainer {
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top: 0;*/
+    background-color: var(--color-neutral-100);
+    /*min-height: 100vh;*/
+    /*padding: 20px;*/
+    /*min-width: 260px;*/
+    box-shadow: 1px 0 4px var(--charcoal-light);
+}

@@ -3,8 +3,12 @@ import Head from 'next/head'
 import { TopBar } from '../components/TopBar/TopBar'
 import { Logotype } from '../components/Logotype/Logotype'
 import { HamburgerButton } from '../components/Menu/Menu'
+import { Drawer } from '../components/Drawer/Drawer'
+import { useState } from 'react'
 
 export default function FuncSiteApp({ Component, pageProps }) {
+  const [showDrawer, setShowDrawer] = useState(false)
+
   return (
     <>
       <Head>
@@ -17,9 +21,13 @@ export default function FuncSiteApp({ Component, pageProps }) {
       </Head>
       <div className="container">
         <TopBar>
-          <HamburgerButton className="menu-button" />
+          <HamburgerButton
+            className="menu-button"
+            onClick={() => console.log('Hello') || setShowDrawer(true)}
+          />
           <Logotype />
         </TopBar>
+        <Drawer show={showDrawer} onClose={() => setShowDrawer(false)} />
         <Component {...pageProps} />
       </div>
     </>

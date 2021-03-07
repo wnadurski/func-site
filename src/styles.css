@@ -1,5 +1,9 @@
 @import "./styles/colors.css";
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --ff-primary: "Roboto", sans-serif;
   --ff-accent: "Trispace", serif;
